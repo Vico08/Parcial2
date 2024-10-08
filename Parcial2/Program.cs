@@ -9,6 +9,7 @@
 
         while (playAgain)
         {
+            Console.Clear();
             Console.WriteLine("Bienvenidos al Juego Adivina el nùmero");
             Console.WriteLine("Ingrese el numero de jugadores (2-4):");
             
@@ -24,24 +25,14 @@
             switch (numJugadores)
                 {
                     case 2:
-                        numeroAleatorio = random.Next(0, 51);
+                        numAleatorio = random.Next(0, 51);
                         break;
                     case 3:
-                        numeroAleatorio = random.Next(0, 101);
+                        numAleatorio = random.Next(0, 101);
                         break;
                     case 4:
-                        numeroAleatorio = random.Next(0, 201);
+                        numAleatorio = random.Next(0, 201);
                         break;
                 }
 
-
-
-
-
-            }
-        
-        
-        
-        Console.WriteLine("Hello, World!");
-    }
-}
+                
